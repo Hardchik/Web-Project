@@ -1,0 +1,39 @@
+.footer-with-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+    background-color: #242424;
+    color: white;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.footer-with-social .title {
+    font-size: 24px;
+}
+
+.footer-with-social .description {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(191, 192, 193);
+    width: 60%;
+}
+
+.footer-with-social .social {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.footer-with-social .social * {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-with-social .social * * {
+    cursor: pointer;
+}
